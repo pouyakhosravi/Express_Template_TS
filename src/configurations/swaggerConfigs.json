@@ -1,0 +1,28 @@
+{
+  "swaggerDefinition": {
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Express Template",
+      "version": "1.0.0",
+      "description": "Express Template Documentation",
+      "contact": {
+        "name": [
+          "Pouya Khosravi"
+        ],
+        "email": [
+          "pouyakhosravi1995@gmail.com"
+        ]
+      }
+    },
+    "host": "localhost:3002/api/v1/doc",
+    "servers": [
+      {
+        "url": "http://localhost:3002/api/v1"
+      }
+    ]
+  },
+  "apis": [
+    "./utilities/swagger/*.yml",
+    "./modules/**/*.yml"
+  ]
+}

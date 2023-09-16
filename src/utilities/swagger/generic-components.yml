@@ -1,0 +1,15 @@
+components:
+  schemas:
+  
+  parameters:
+
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: auth-token
+  requestBodies:
+
+  responses:
+
+  headers:

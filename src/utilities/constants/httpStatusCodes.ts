@@ -1,0 +1,11 @@
+const HTTP_STATUS_CODE = {
+    OK: 200,
+    BAD_REQUEST: 400,
+    NOT_FOUND: 404,
+    ROUTE_NOT_FOUND: 429,
+    NOT_AUTHENTICATED: 401,
+    INTERNAL_SERVER: 500,
+};
+
+
+export default HTTP_STATUS_CODE;
