@@ -25,9 +25,14 @@
     "hpp": "^0.2.3",
     "joi": "^17.10.1",
     "node-oauth2-server": "^2.4.0",
+    "pg": "^8.11.3",
+    "reflect-metadata": "^0.1.13",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.0",
     "ts-node": "^10.9.1",
     "typeorm": "^0.3.17"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.2"
   }
 }

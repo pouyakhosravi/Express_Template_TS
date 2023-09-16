@@ -8,8 +8,11 @@ import bodyParser from "body-parser";
 import modulesRouter from "./modules.routing";
 import hpp from "hpp";
 import { ErrorHandler, errorHandler } from "./utilities/responsesHandler";
+import connectionToPostgreSQL from "./configurations/dataBases/postgreSQL.configs";
 
 const bootStrap = async (appPort: number, appMode: string): Promise<void> => {
+  await connectionToPostgreSQL();
+  
   const app: express.Application = express();
   const server: http.Server = http.createServer(app);
 
