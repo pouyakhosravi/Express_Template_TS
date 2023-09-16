@@ -1,11 +1,12 @@
 {
   "name": "express-template",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "This is a template",
   "main": "src/bootStrap.ts",
   "scripts": {
     "start": "ts-node src/bootStrap.ts",
-    "start:dev": "nodemon src/bootStrap.ts"
+    "start:dev": "nodemon src/bootStrap.ts",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "author": "pouyakhosravi1995@gmail.com",
   "license": "ISC",
